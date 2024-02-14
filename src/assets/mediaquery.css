@@ -1,0 +1,137 @@
+@media screen and (max-width: 800px) {
+
+    /* Hamburger Start */
+    .my-menu{
+        position: relative;
+        display: inline-block;
+    }
+    .my-icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24px;
+        width: 30px;
+        cursor: pointer;
+    }
+    .my-icon span{
+        width: 100%;
+        height: 2px;
+        background-color: orangered;
+        transition: all 0.3 ease-in-out;
+    }
+    .menu-links{
+        position: absolute;
+        top: 80%;
+        left: 0;
+        /* background-color: rgb(233, 233, 233); */
+        border-radius: 5px;
+        width: fit-content;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.3 ease-in-out;
+    }
+    .menu-links a{
+        display: flex;
+        padding: 5px;
+        margin-left: -40px;
+        text-align: left;
+        font-size: 90%;
+        color: orangered;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3 ease-in-out;
+    }
+    .menu-links li{
+        list-style: none;
+    }
+    .menu-links.open{
+        max-height: 300px;
+    }
+    .my-icon.open span:first-child{
+        transform: rotate(45deg) translate(10px, 5px);
+    }
+    .my-icon.open span:nth-child(2){
+        opacity: 0;
+    }
+    .my-icon.open span:last-child{
+        transform: rotate(-45deg) translate(10px, -5px);
+    }
+    .my-icon span:first-child{
+        transform: none;
+    }
+    .my-icon span:first-child{
+        opacity: 1;
+    }
+    .my-icon span:first-child{
+        transform: none;
+    }
+/* End Hamburger */
+
+    #desktop-nav{
+        display: none;
+    }
+
+    #mobile-nav{
+        display: flex;
+        top: 0;
+        left: 0;
+        /* position: fixed; */
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        cursor: default;
+        z-index: 50;
+    }
+
+    #theme {
+        position: fixed;
+    }
+
+    .site-logo {
+        display: flex;
+        margin-left: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #profile {
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #profile-photo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -30px;
+    }
+
+    .profile-detail-wrapper {
+        display: block;
+        padding: 50px;
+    }
+
+    .profile-name {
+        display: block;
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    
+    .profile-skill {
+        display: block;
+        margin-top: -10px;
+        margin-bottom: 5px;
+        color: orangered;
+        font-size: 1.5rem;
+    }
+
+    #profileButton {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+        
+    }
+}

@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+#nav {
+    display: flex;
+}
+
+#theme {
+    margin-top: 20px;
+    margin-left: 90%;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+}
+
+#desktop-nav {
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    width: 100%;
+    z-index: 50;
+    cursor: default;
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+#mobile-nav{
+    display: none;
+}
+
+#navLinks a {
+    font-size: 90%;
+    color: orangered;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-link {
+    margin: 10px;
+}
+
+.site-logo {
+    color: orangered;
+    text-decoration: none;
+}
+
+#navLinks a:hover {
+    font-size: 90%;
+    /* color: rgb(255, 118, 69); */
+    color: inherit;
+    text-decoration: none;
+}
+
+section{
+    padding: 4vh;
+    height: 96vh;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+#profile {
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+#profile-photo {
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.profile-detail-wrapper {
+    display: flex;
+    padding: 50px;
+}
+
+.profile-detail {
+    display: block;
+    text-align: center;
+}
+
+.profile-text {
+    margin-bottom: -10px;
+    font-weight: 700;
+}
+
+.profile-name {
+    display: block;
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.profile-skill {
+    display: block;
+    margin-top: -15px;
+    margin-bottom: 5px;
+    color: orangered;
+    font-size: 2.3rem;
+}
+
+#profileButton {
+    margin: 10px;
+}
+
+#profileIcon {
+    margin: 10px;
+    width: 35px;
+    height: auto;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    color: orangered;
+}
+
+/* About */
