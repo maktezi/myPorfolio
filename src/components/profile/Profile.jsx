@@ -11,11 +11,12 @@ const Profile = () => {
         const resume = resumepdf;
         
         const link = document.createElement('a');
-            link.href = resume;
-            link.setAttribute('download', 'resume.pdf');
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+        
+        link.href = resume;
+        link.setAttribute('download', 'resume.pdf');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     };
 
     return (
