@@ -1,4 +1,4 @@
-import './section.css'
+import './css/about.css'
 import aboutPic from '/src/assets/img/about-pic.png';
 import experience from '/src/assets/img/experience.png';
 import education from '/src/assets/img/education.png';
@@ -30,7 +30,7 @@ const About = () => {
                         <p className='text'>Computer Engineering</p>
                     </div>
                 </div>
-                <div className='about-details'>
+                <div id='about-text' className='about-details'>
                     <p>Enthusiastic and detail-oriented website developer with a passion for crafting dynamic and visually appealing online experiences. Possessing a foundation in HTML, CSS, and JavaScript, ReactJS and Laravel for backend development. I am eager to leverage my skills to contribute effectively to web development projects.</p>
                 </div>
             </div>

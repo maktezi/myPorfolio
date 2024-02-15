@@ -7,7 +7,7 @@ import NavLinkMobile from './components/navbar/NavLinkMobile';
 import Profile from './components/profile/Profile';
 import ProfilePic from './components/profile/ProfilePic';
 import About from './components/section/About';
-// import Experience from './components/section/Experience';
+import Experience from './components/section/Experience';
 
 const App = () => {
 
@@ -35,7 +35,7 @@ const App = () => {
     </section>
 
     <section id='experience'>
-        {/* <Experience/> */}
+        <Experience/>
     </section>
 
   </>

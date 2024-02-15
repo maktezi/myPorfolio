@@ -70,7 +70,15 @@
         flex-direction: column;
     }
 
-    .box {
-        width: 100%;
+    .about-img {
+        margin-top: -50px;
+        margin-bottom: -10px;
+        width: 500px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .about-img {
+        display: none;
     }
 }

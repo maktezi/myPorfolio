@@ -1,0 +1,27 @@
+.title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.experience-wrapper {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.big-box {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 500px;
+    border: 1px solid orangered;
+}
+
+.small-box {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid orangered;
+}
+
