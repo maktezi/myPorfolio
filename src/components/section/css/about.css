@@ -51,10 +51,12 @@
 
 .text-head {
     margin: 10px 0;
+    color: orangered;
 }
 
 .text {
     margin: 5px 0;
+    color: orange;
 }
 
 .about-details {

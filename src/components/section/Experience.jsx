@@ -5,12 +5,13 @@ const Experience = () => {
     <>
         <h1 className="title">Experience</h1>
         <div className='experience-wrapper'>
+
             <div className='exp-box'>
-                <h2>Website Development</h2>
+                <h2 className='exp-heading'>Website Development</h2>
                 <div className='big-box'>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>HTML, CSS & JavaScript</h3>
+                            <h3 className='skill-title'>HTML, CSS & JavaScript</h3>
                             <p className='skill-lvl'>
                                 Intermediate
                             </p>
@@ -19,7 +20,7 @@ const Experience = () => {
                     </div>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>ReactJS</h3>
+                            <h3 className='skill-title'>ReactJS</h3>
                             <p className='skill-lvl'>
                                 Basic
                             </p>
@@ -28,7 +29,7 @@ const Experience = () => {
                     </div>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>Laravel</h3>
+                            <h3 className='skill-title'>Laravel</h3>
                             <p className='skill-lvl'>
                                 Intermediate
                             </p>
@@ -37,7 +38,7 @@ const Experience = () => {
                     </div>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>Wordpress</h3>
+                            <h3 className='skill-title'>Wordpress</h3>
                             <p className='skill-lvl'>
                                 Intermediate
                             </p>
@@ -46,7 +47,7 @@ const Experience = () => {
                     </div>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>MySQL</h3>
+                            <h3 className='skill-title'>MySQL</h3>
                             <p className='skill-lvl'>
                                 Intermediate
                             </p>
@@ -55,7 +56,7 @@ const Experience = () => {
                     </div>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>GitHub</h3>
+                            <h3 className='skill-title'>GitHub</h3>
                             <p className='skill-lvl'>
                                 Intermediate
                             </p>
@@ -66,11 +67,11 @@ const Experience = () => {
             </div>
 
             <div className='exp-box'>
-                <h2>Technical Proficiency</h2>
+                <h2 className='exp-heading'>Technical Proficiency</h2>
                 <div className='big-box'>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>System Administration</h3>
+                            <h3 className='skill-title'>System Administration</h3>
                             <p className='skill-lvl'>
                                 Experienced
                             </p>
@@ -79,7 +80,7 @@ const Experience = () => {
                     </div>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>Network Administration</h3>
+                            <h3 className='skill-title'>Network Administration</h3>
                             <p className='skill-lvl'>
                                 Experienced
                             </p>
@@ -88,7 +89,7 @@ const Experience = () => {
                     </div>
                     <div className='small-box'>
                         <div className='insmall-box'>
-                            <h3>Photo & Video Editing</h3>
+                            <h3 className='skill-title'>Photo & Video Editing</h3>
                             <p className='skill-lvl'>
                                 Experienced
                             </p>
