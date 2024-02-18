@@ -5,23 +5,66 @@
 
 .experience-wrapper {
     display: flex;
-    margin: auto;
+    flex-wrap: wrap;
+    /* margin-top: -50px; */
     justify-content: center;
     font-family: Montserrat, sans-serif;
 }
 
+.exp-box {
+    /* margin: auto; */
+    display: block;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 8px;
+    text-align: center;
+    /* border: 1px solid orangered; */
+}
+
 .big-box {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 10px;
-    margin: 10px;
-    width: 500px;
-    border: 1px solid orangered;
+    max-width: 700px;
+    /* width: 500px; */
+    margin-top: -20px;
+}
+
+.big-box h2 {
+    display: inline-block;
 }
 
 .small-box {
-    display: flex;
+    /* display: flex; */
     padding: 10px;
-    margin: 10px;
-    border: 1px solid orangered;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(255, 69, 0, 0.2);
 }
 
+.skill-lvl {
+    margin-top: -20px;
+}
+
+.insmall-box {
+    width: 160px;
+    margin: auto;
+    align-items: center;
+}
+
+.insmall-box h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    height: auto;
+}
+
+.exp-info {
+    font-size: 12px;
+    margin-top: -10px;
+    text-align: center;
+}

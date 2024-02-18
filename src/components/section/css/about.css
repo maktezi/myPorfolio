@@ -1,6 +1,6 @@
 .title {
     text-align: center;
-    margin: 50px 0;
+    margin: 50px;
 }
 
 #about-wrapper {
@@ -40,8 +40,8 @@
     width: 45%;
     margin: 5px;
     padding: 10px;
-    border: 1px solid orangered;
     border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(255, 69, 0, 0.2);
 }
 
 .box-icon {

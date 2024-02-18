@@ -75,12 +75,17 @@
         display: flex;
         top: 0;
         left: 0;
-        /* position: fixed; */
+        position: fixed;
         align-items: center;
         padding-left: 30px;
         padding-right: 30px;
         cursor: default;
         z-index: 50;
+        width: 100%;
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(20px);
     }
 
     #theme {
@@ -97,7 +102,7 @@
     #profile {
         display: block;
         margin: auto;
-        padding-top: 100px;
+        padding-top: 200px;
         align-items: center;
         justify-content: center;
     }
