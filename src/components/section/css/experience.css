@@ -20,7 +20,6 @@
     display: block;
     margin-left: 3px;
     margin-right: 3px;
-    border-radius: 8px;
     text-align: center;
     /* border: 1px solid orangered; */
 }
@@ -42,13 +41,11 @@
 .small-box {
     /* display: flex; */
     padding: 10px;
-    border-radius: 8px;
     margin-bottom: 10px;
     margin-left: 5px;
     margin-right: 5px;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 30px rgba(255, 69, 0, 0.2);
+    border: 1px dotted rgba(255, 0, 0, 0.5);
 }
 
 .skill-title {

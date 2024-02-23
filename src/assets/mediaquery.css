@@ -23,7 +23,6 @@
         position: absolute;
         top: 80%;
         left: 0;
-        /* background-color: rgb(233, 233, 233); */
         border-radius: 5px;
         width: fit-content;
         max-height: 0;
@@ -32,7 +31,6 @@
     }
     .menu-links a{
         display: flex;
-        padding: 5px;
         margin-left: -40px;
         text-align: left;
         font-size: 90%;
@@ -40,6 +38,10 @@
         font-weight: 600;
         text-decoration: none;
         transition: all 0.3 ease-in-out;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     .menu-links li{
         list-style: none;

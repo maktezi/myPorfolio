@@ -8,6 +8,7 @@ import Profile from './components/profile/Profile';
 import ProfilePic from './components/profile/ProfilePic';
 import About from './components/section/About';
 import Experience from './components/section/Experience';
+import NotFound from './components/section/NotFound';
 
 const App = () => {
 
@@ -36,6 +37,10 @@ const App = () => {
 
     <section id='experience'>
         <Experience/>
+    </section>
+
+    <section id='notfound'>
+        <NotFound/>
     </section>
 
   </>

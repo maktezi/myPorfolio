@@ -25,17 +25,18 @@ const Profile = () => {
         <div className='profile-detail'>
             <p className="profile-text">Hello, I`m</p>
             <h1 className="profile-name">MARK</h1>
-            <h3 className="profile-skill">Web Developer</h3>
+            <h3 className="profile-skill">FrontEndDev</h3>
             <div>
                 <Button 
                     id='profileButton'
                     variant='contained' 
                     color='error' 
                     onClick={handleDownload}
+                    disableElevation
                 >
                     DOWNLOAD CV
                 </Button>
-                <Button href='#' id='profileButton' variant='outlined' color='warning'>CONTACT INFO</Button>
+                <Button href='#notfound' id='profileButton' variant='outlined' color='warning' disableElevation>CONTACT INFO</Button>
             </div>
             <div>
                 <a href='https://profile.indeed.com/p/markn-w33vjj5' target='_blank'><img id='profileIcon' src={indeed}></img></a>

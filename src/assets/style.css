@@ -113,6 +113,7 @@ section{
 
 #profileButton {
     margin: 5px;
+    border-radius: 0px;
 }
 
 #profileIcon {

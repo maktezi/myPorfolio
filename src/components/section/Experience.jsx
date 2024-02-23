@@ -60,7 +60,7 @@ const Experience = () => {
                             <p className='skill-lvl'>
                                 Intermediate
                             </p>
-                            <p className='exp-info'><i>Create, and manipulate databases using SQL.</i></p>
+                            <p className='exp-info'><i>Version Control</i></p>
                         </div>
                     </div>
                 </div>
