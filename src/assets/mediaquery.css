@@ -16,7 +16,7 @@
     .my-icon span{
         width: 100%;
         height: 2px;
-        background-color: orangered;
+        background-color: #d32f2f;
         transition: all 0.3 ease-in-out;
     }
     .menu-links{
@@ -34,7 +34,7 @@
         margin-left: -40px;
         text-align: left;
         font-size: 90%;
-        color: orangered;
+        color: #d32f2f;
         font-weight: 600;
         text-decoration: none;
         transition: all 0.3 ease-in-out;
@@ -130,7 +130,6 @@
         display: block;
         margin-top: -10px;
         margin-bottom: 5px;
-        color: orangered;
         font-size: 1.5rem;
     }
 
@@ -140,5 +139,17 @@
         margin-left: auto;
         width: 50%;
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    #experience {
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #experience {
+        height: 200vh;
     }
 }

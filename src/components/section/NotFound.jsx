@@ -1,4 +1,4 @@
-export default function NotFound() {
+const NotFound = () => {
 
     const containerStyle = {
         display: 'flex',
@@ -16,3 +16,5 @@ export default function NotFound() {
         </div>
     )
 }
+
+export default NotFound

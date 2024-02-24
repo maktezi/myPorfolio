@@ -29,14 +29,15 @@ const Profile = () => {
             <div>
                 <Button 
                     id='profileButton'
-                    variant='contained' 
+                    className='downloadBtn'
+                    variant='contained'
                     color='error' 
                     onClick={handleDownload}
                     disableElevation
                 >
                     DOWNLOAD CV
                 </Button>
-                <Button href='#notfound' id='profileButton' variant='outlined' color='warning' disableElevation>CONTACT INFO</Button>
+                <Button href='#notfound' id='profileButton' variant='outlined' color='error' disableElevation>CONTACT INFO</Button>
             </div>
             <div>
                 <a href='https://profile.indeed.com/p/markn-w33vjj5' target='_blank'><img id='profileIcon' src={indeed}></img></a>

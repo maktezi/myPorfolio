@@ -1,4 +1,4 @@
-import './css/experience.css'
+import './section.css'
 
 const Experience = () => {
     return (
@@ -22,7 +22,7 @@ const Experience = () => {
                         <div className='insmall-box'>
                             <h3 className='skill-title'>ReactJS</h3>
                             <p className='skill-lvl'>
-                                Basic
+                                Intermediate
                             </p>
                             <p className='exp-info'><i>Knowledgeable in designing frontend with the use of MUI.</i></p>
                         </div>

@@ -1,4 +1,4 @@
-import './assets/style.css'
+import './assets/styles.css'
 import './assets/mediaquery.css'
 import Theme from "./components/Theme";
 import LogoText from "./components/navbar/LogoText";
@@ -9,6 +9,8 @@ import ProfilePic from './components/profile/ProfilePic';
 import About from './components/section/About';
 import Experience from './components/section/Experience';
 import NotFound from './components/section/NotFound';
+import Projects from './components/section/Projects';
+import Contact from './components/section/Contact';
 
 const App = () => {
 
@@ -37,6 +39,14 @@ const App = () => {
 
     <section id='experience'>
         <Experience/>
+    </section>
+
+    <section id='projects'>
+        <Projects/>
+    </section>
+
+    <section id='contact'>
+        <Contact/>
     </section>
 
     <section id='notfound'>

@@ -1,4 +1,4 @@
-import './css/about.css'
+import './section.css'
 import aboutPic from '/src/assets/img/about-pic.png';
 import experience from '/src/assets/img/experience.png';
 import education from '/src/assets/img/education.png';
