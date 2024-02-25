@@ -17,8 +17,8 @@ const Projects = () => {
             <div id="project-wrapper">
                 <div className="project-box">
                     <div className="project-box-details">
-                        <h2 className='project-title'>CRUD ReactJS, MUI, Laravel, SQL</h2>
                         <img className='project-pic' src={project0}/>
+                        <h3 className='project-title'>CRUD ReactJS, MUI, Laravel, SQL</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/crud'
@@ -36,8 +36,8 @@ const Projects = () => {
 
                 <div className="project-box">
                     <div className="project-box-details">
-                        <h2 className='project-title'>QR Code Attendance System</h2>
                         <img className='project-pic' src={project1}/>
+                        <h3 className='project-title'>QR Code Attendance System</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/qr_attendance_system/'
@@ -65,8 +65,8 @@ const Projects = () => {
 
                 <div className="project-box">
                     <div className="project-box-details">
-                        <h2 className='project-title'>Online Forms System</h2>
                         <img className='project-pic' src={project2}/>
+                        <h3 className='project-title'>Online Forms System</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/online-forms'
@@ -94,8 +94,8 @@ const Projects = () => {
 
                 <div className="project-box">
                     <div className="project-box-details">
-                        <h2 className='project-title'>IT Inventory System</h2>
                         <img className='project-pic' src={project3}/>
+                        <h3 className='project-title'>IT Inventory System</h3>
                         <div>
                             <Button 
                                 href='https://dole8inventory.freshfromuspng.store/'
@@ -113,8 +113,8 @@ const Projects = () => {
 
                 <div className="project-box">
                     <div className="project-box-details">
-                        <h2 className='project-title'>GIP Monitoring System</h2>
                         <img className='project-pic' src={project4}/>
+                        <h3 className='project-title'>GIP Monitoring System</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/gip-records'
@@ -132,8 +132,8 @@ const Projects = () => {
 
                 <div className="project-box">
                     <div className="project-box-details">
-                        <h2 className='project-title'>Supply Unit Inventory System</h2>
                         <img className='project-pic' src={project5}/>
+                        <h3 className='project-title'>Supply Unit Inventory System</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/inventory-system'
@@ -149,11 +149,10 @@ const Projects = () => {
                     </div>
                 </div>
 
-                
                 <div className="project-box">
                     <div className="project-box-details">
-                        <h2 className='project-title'>Wordpress Ecommerce</h2>
                         <img className='project-pic' src={project6}/>
+                        <h3 className='project-title'>Wordpress Ecommerce</h3>
                         <div>
                             <Button 
                                 href='https://freshfrom-us.com/'
