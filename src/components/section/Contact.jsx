@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className='email-notif'><p>Email copied to clipboard!</p></div>
         }
                 <a onClick={copyToClipboard} style={{ cursor: 'pointer' }}>
-                    Email
+                    <h4>Email</h4>
                 </a>
             </div>
             <div id='contact-details'>
