@@ -233,7 +233,7 @@ footer {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 500px) { #experience { height: 140vh; } }
+@media (max-width: 500px) { #experience { height: 150vh; } }
 @media (max-width: 1000px) { #projects { height: 490vh; } }
 @media (max-width: 840px) { #projects { height: 420vh; } }
 @media (max-width: 600px) { #projects { height: 320vh; } }
