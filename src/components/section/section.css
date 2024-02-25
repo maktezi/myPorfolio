@@ -169,8 +169,8 @@
 .project-title {
     text-align: center;
     margin-top: 0px;
-    background-color: #d32f2f;
     margin-bottom: 0px;
+    border-bottom: 1px dotted rgba(255, 0, 0, 0.5);
 }
 
 .project-pic {
@@ -233,10 +233,11 @@ footer {
 }
 
 /* Media Queries for Responsive Design */
+@media (max-width: 500px) { #experience { height: 140vh; } }
 @media (max-width: 1000px) { #projects { height: 490vh; } }
 @media (max-width: 840px) { #projects { height: 420vh; } }
 @media (max-width: 600px) { #projects { height: 320vh; } }
-@media (max-width: 500px) { #projects { height: 310vh; } }
+@media (max-width: 500px) { #projects { height: 280vh; } }
 
 @media screen and (max-width: 768px) {
     #about-wrapper {

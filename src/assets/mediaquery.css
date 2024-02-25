@@ -147,9 +147,3 @@
         height: 140vh;
     }
 }
-
-@media screen and (max-width: 500px){
-    #experience {
-        height: 200vh;
-    }
-}
