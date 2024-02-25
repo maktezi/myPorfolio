@@ -1,5 +1,5 @@
 import Button from '@mui/material/Button';
-import resumepdf from '/src/assets/resume.pdf';
+import resumepdf from '/src/assets/NierrasResume.pdf';
 import indeed from '/src/assets/img/indeed.png';
 import github from '/src/assets/img/github.png';
 import fb from '/src/assets/img/fb.png';
