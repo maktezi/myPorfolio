@@ -23,9 +23,9 @@ const Profile = () => {
     <>
     <div className='profile-detail-wrapper'>
         <div className='profile-detail'>
-            <p className="profile-text">Hello, I`m</p>
+            <p className="profile-text">Hey I am</p>
             <h1 className="profile-name">MARK</h1>
-            <h3 className="profile-skill">FrontEndDev</h3>
+            <h3 className="profile-skill">Web Developer</h3>
             <div>
                 <Button 
                     id='profileButton'
