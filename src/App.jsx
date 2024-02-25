@@ -8,7 +8,6 @@ import Profile from './components/profile/Profile';
 import ProfilePic from './components/profile/ProfilePic';
 import About from './components/section/About';
 import Experience from './components/section/Experience';
-import NotFound from './components/section/NotFound';
 import Projects from './components/section/Projects';
 import Contact from './components/section/Contact';
 
@@ -47,10 +46,6 @@ const App = () => {
 
     <section id='contact'>
         <Contact/>
-    </section>
-
-    <section id='notfound'>
-        <NotFound/>
     </section>
 
   </>

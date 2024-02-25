@@ -22,7 +22,7 @@ const Projects = () => {
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/crud'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
                                 color='error' 
@@ -41,7 +41,7 @@ const Projects = () => {
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/qr_attendance_system/'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
                                 color='error' 
@@ -51,7 +51,7 @@ const Projects = () => {
                             </Button>
                             <Button 
                                 href='https://dolereg2023.app-gov.online/'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='outlined' 
                                 color='error' 
@@ -70,7 +70,7 @@ const Projects = () => {
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/online-forms'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
                                 color='error' 
@@ -80,7 +80,7 @@ const Projects = () => {
                             </Button>
                             <Button 
                                 href='https://app-gov.online/'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='outlined' 
                                 color='error' 
@@ -99,7 +99,7 @@ const Projects = () => {
                         <div>
                             <Button 
                                 href='https://dole8inventory.freshfromuspng.store/'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
                                 color='error' 
@@ -118,7 +118,7 @@ const Projects = () => {
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/gip-records'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
                                 color='error' 
@@ -137,7 +137,7 @@ const Projects = () => {
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/inventory-system'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
                                 color='error' 
@@ -157,7 +157,7 @@ const Projects = () => {
                         <div>
                             <Button 
                                 href='https://freshfrom-us.com/'
-                                target='__blank'
+                                target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
                                 color='error' 
