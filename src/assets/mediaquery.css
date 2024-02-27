@@ -147,3 +147,9 @@
         height: 140vh;
     }
 }
+
+@media screen and (max-width: 400px){
+    body {
+        font-size: 95%;
+    }
+}
