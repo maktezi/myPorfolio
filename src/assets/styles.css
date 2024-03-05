@@ -139,15 +139,14 @@ section{
 
 /* Box */
 .stage {
-    /* border-bottom: 1px solid #444; */
     display: flex;
     position: absolute;
-    right: 0px;
+    right: 2%;
     bottom: -85vh;
     height: 0px;
     width: 10%;
 }
-.box-bounce {
+.box-b1 {
     align-self: flex-end;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -162,10 +161,10 @@ section{
     animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
 }
 @keyframes bounce {
-    0%   { transform: scale(1,1)      translateY(0); }
-    10%  { transform: scale(1,1)   translateY(0); }
-    30%  { transform: scale(1,1)   translateY(-50px); }
-    50%  { transform: scale(1,1) translateY(0); }
-    64%  { transform: scale(1,1)      translateY(0); }
-    100% { transform: scale(1,1)      translateY(0); }
+    0%   { transform: scale(1, 1) translateY(0) rotate(0deg); }
+    10%  { transform: scale(1, 1) translateY(0) rotate(0deg); }
+    30%  { transform: scale(1, 1) translateY(-50px) rotate(360deg); }
+    50%  { transform: scale(1, 1) translateY(0) rotate(0deg); }
+    64%  { transform: scale(1, 1) translateY(0) rotate(0deg); }
+    100% { transform: scale(1, 1) translateY(0) rotate(0deg); }
 }

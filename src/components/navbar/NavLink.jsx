@@ -2,7 +2,7 @@ const NavLink = () => {
     return (
         <div id='navLinks'>
         <div className="stage">
-            <div className="box-bounce bounce"></div>
+            <div className="box-b1 bounce"></div>
         </div>
             <a className='nav-link' href={"#about"}>About</a>
             <a className='nav-link' href={"#experience"}>Experience</a>

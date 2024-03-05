@@ -12,7 +12,7 @@ const NavLinkMobile = () => {
     return (
         <>
         <div className="stage">
-            <div className="box-bounce bounce"></div>
+            <div className="box-b1 bounce"></div>
         </div>
             <div className="my-menu">
                 <div className="my-icon" onClick={toggleMenu}>
