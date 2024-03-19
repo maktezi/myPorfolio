@@ -75,7 +75,7 @@ const Experience = () => {
                             <p className='skill-lvl'>
                                 Experienced
                             </p>
-                            <p className='exp-info'><i>nstallation, configuration, maintenance of computer systems and software.</i></p>
+                            <p className='exp-info'><i>Installation, configuration, maintenance of computer systems and software.</i></p>
                         </div>
                     </div>
                     <div className='small-box'>
