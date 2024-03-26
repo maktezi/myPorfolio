@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project0}/>
-                        <h3 className='project-title'>CRUD ReactJS, MUI, Laravel, SQL</h3>
+                        <h3 className='project-title'>Simple CRUD ReactJS, Laravel</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/crud'
@@ -29,6 +29,16 @@ const Projects = () => {
                                 disableElevation
                             >
                                 GITHUB
+                            </Button>
+                            <Button 
+                                href='https://crud101.vercel.app'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                                disableElevation
+                            >
+                                LIVE DEMO
                             </Button>
                         </div>
                     </div>
@@ -152,17 +162,61 @@ const Projects = () => {
                 <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project6}/>
-                        <h3 className='project-title'>Wordpress Ecommerce</h3>
+                        <h3 className='project-title'>Wordpress Projects</h3>
                         <div>
+                            <Button 
+                                href='https://www.brooklynelectricianservice.com/'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                            >
+                                Landing Page 1
+                            </Button>
+                            <Button 
+                                href='https://www.dallasyourdrywallguys.com/'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                            >
+                                Landing Page 2
+                            </Button>
+                            <Button 
+                                href='https://www.sfelectricmasters.com/'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                            >
+                                Landing Page 3
+                            </Button>
+                            <Button 
+                                href='https://www.hartfordelectricians.com/'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                            >
+                                Landing Page 4
+                            </Button>
+                            <Button 
+                                href='https://www.orlandoelectricianservice.com/'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                            >
+                                Landing Page 5
+                            </Button>
                             <Button 
                                 href='https://freshfrom-us.com/'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='contained' 
+                                variant='outlined' 
                                 color='error' 
-                                disableElevation
                             >
-                                LIVE DEMO
+                                Online Store
                             </Button>
                         </div>
                     </div>
