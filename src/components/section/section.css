@@ -1,3 +1,68 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    scroll-behavior: smooth;
+}
+
+/* Profile Section */
+.profile-text {
+    animation: slideFadeIn 1s ease-in-out forwards;
+    /* animation-delay: 0.5s; */
+}
+
+.profile-name {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+    /* animation-delay: 1s; */
+}
+
+.profile-skill {
+    animation: slideInFromBottom 1s ease-in-out forwards;
+    /* animation-delay: 1.5s; */
+}
+
+.icon-spacing {
+    margin-right: 5px;
+}
+
+.nav-icon {
+    margin-bottom: -5px;
+}
+
+@keyframes slideFadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* End Profile Section */
+
 .title {
     text-align: center;
     margin: 50px;
@@ -9,8 +74,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
+}
+
+#about {
+    height: 100vh;
 }
 
 #about-wrapper-img {
@@ -30,16 +99,20 @@
 
 #box-wrapper {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     justify-content: space-around;
     flex: 1;
     margin: 10px;
 }
 
 .box {
-    width: 45%;
+    width: 100%;
     margin: 5px;
-    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: 1px dotted rgba(255, 0, 0, 0.5);
 }
 
@@ -60,7 +133,7 @@
 
 .about-details {
     flex: 1;
-    margin: 10px;
+    /* margin: 10px; */
     text-align: justify;
 }
 /* End About Section */
@@ -103,6 +176,7 @@
     margin-left: 5px;
     margin-right: 5px;
     height: auto;
+    width: 40%;
     border: 1px dotted rgba(255, 0, 0, 0.5);
 }
 
@@ -163,7 +237,7 @@
     text-align: center;
     border: 1px dotted rgba(255, 0, 0, 0.5);
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .project-title {
@@ -174,7 +248,7 @@
 }
 
 .project-pic {
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
@@ -184,7 +258,7 @@
 }
 
 #projects {
-    height: 520vh;
+    height: 460vh;
 }
 /* End Project Section */
 
@@ -233,11 +307,17 @@ footer {
 }
 
 /* Media Queries for Responsive Design */
-@media (max-width: 500px) { #experience { height: 150vh; } }
+@media (max-width: 600px) { #experience { height: 185vh; } }
 @media (max-width: 1000px) { #projects { height: 490vh; } }
 @media (max-width: 840px) { #projects { height: 420vh; } }
-@media (max-width: 600px) { #projects { height: 320vh; } }
-@media (max-width: 500px) { #projects { height: 280vh; } }
+@media (max-width: 600px) { 
+    #projects { height: 320vh; } 
+    .small-box { width: 70%; } 
+}
+@media (max-width: 500px) { 
+    #projects { height: 260vh; }
+    .small-box { width: 70%; }
+}
 
 @media screen and (max-width: 768px) {
     #about-wrapper {

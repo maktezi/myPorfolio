@@ -3,6 +3,9 @@ import resumepdf from '/src/assets/NierrasResume.pdf';
 import indeed from '/src/assets/img/indeed.png';
 import github from '/src/assets/img/github.png';
 import fb from '/src/assets/img/fb.png';
+import DownloadIcon from '@mui/icons-material/Download';
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import '../section/section.css'
 
 const Profile = () => {
 
@@ -35,9 +38,9 @@ const Profile = () => {
                     onClick={handleDownload}
                     disableElevation
                 >
-                    DOWNLOAD CV
+                    <DownloadIcon className='icon-spacing'/>Resume
                 </Button>
-                <Button href='#notfound' id='profileButton' variant='outlined' color='error' disableElevation>CONTACT INFO</Button>
+                <Button href='#contact' id='profileButton' variant='outlined' color='error' disableElevation><AlternateEmailIcon className='icon-spacing'/>Contact</Button>
             </div>
             <div>
                 <a href='https://profile.indeed.com/p/markn-w33vjj5' target='_blank'><img id='profileIcon' src={indeed}></img></a>

@@ -1,4 +1,9 @@
 // import React from 'react';
+import InfoIcon from '@mui/icons-material/Info';
+import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
+import HandymanIcon from '@mui/icons-material/Handyman';
+import ContactsIcon from '@mui/icons-material/Contacts';
+
 
 const NavLinkMobile = () => {
 
@@ -21,10 +26,10 @@ const NavLinkMobile = () => {
                     <span></span>
                 </div>
                 <ul className="menu-links">
-                    <li><a href="#about" onClick={toggleMenu}>About</a></li>
-                    <li><a href="#experience" onClick={toggleMenu}>Experience</a></li>
-                    <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
-                    <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+                    <li><a href="#about" onClick={toggleMenu}><InfoIcon className='nav-icon icon-spacing'/>About</a></li>
+                    <li><a href="#experience" onClick={toggleMenu}><BusinessCenterIcon className='nav-icon icon-spacing'/>Experience</a></li>
+                    <li><a href="#projects" onClick={toggleMenu}><HandymanIcon className='nav-icon icon-spacing'/>Projects</a></li>
+                    <li><a href="#contact" onClick={toggleMenu}><ContactsIcon className='nav-icon icon-spacing'/>Contact</a></li>
                 </ul>
             </div>
         </>

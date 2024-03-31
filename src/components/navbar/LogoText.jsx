@@ -2,7 +2,7 @@ const LogoText = () => {
     return (
         <h2 style={{ 
             color: "orangered"
-        }}><a className="site-logo" href="#top">makTezi</a></h2>
+        }}><a className="site-logo" href="/">makTezi</a></h2>
     )
 }
 

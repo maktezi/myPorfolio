@@ -24,7 +24,7 @@ const Projects = () => {
                                 href='https://github.com/maktezi/crud'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='contained' 
+                                variant='outlined' 
                                 color='error' 
                                 disableElevation
                             >
@@ -34,7 +34,7 @@ const Projects = () => {
                                 href='https://crud101.vercel.app'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='outlined' 
+                                variant='contained' 
                                 color='error' 
                                 disableElevation
                             >
@@ -53,17 +53,17 @@ const Projects = () => {
                                 href='https://github.com/maktezi/qr_attendance_system/'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='contained' 
+                                variant='outlined' 
                                 color='error' 
                                 disableElevation
                             >
                                 GITHUB
                             </Button>
                             <Button 
-                                href='https://dolereg2023.app-gov.online/'
+                                href='https://dolejobfair2023.freshfromuspng.com/'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='outlined' 
+                                variant='contained' 
                                 color='error' 
                                 disableElevation
                             >
@@ -82,17 +82,17 @@ const Projects = () => {
                                 href='https://github.com/maktezi/online-forms'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='contained' 
+                                variant='outlined' 
                                 color='error' 
                                 disableElevation
                             >
                                 GITHUB
                             </Button>
                             <Button 
-                                href='https://app-gov.online/'
+                                href='https://comelec-bske2023.freshfromuspng.com/'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='outlined' 
+                                variant='contained' 
                                 color='error' 
                                 disableElevation
                             >
@@ -149,11 +149,21 @@ const Projects = () => {
                                 href='https://github.com/maktezi/inventory-system'
                                 target='_blank'
                                 id='projectButton' 
-                                variant='contained' 
+                                variant='outlined' 
                                 color='error' 
                                 disableElevation
                             >
                                 GITHUB
+                            </Button>
+                            <Button 
+                                href='https://inventory101.freshfromuspng.com'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='contained' 
+                                color='error' 
+                                disableElevation
+                            >
+                                LIVE DEMO
                             </Button>
                         </div>
                     </div>
