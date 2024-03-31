@@ -133,7 +133,7 @@
 
 .about-details {
     flex: 1;
-    /* margin: 10px; */
+    margin: 10px;
     text-align: justify;
 }
 /* End About Section */
