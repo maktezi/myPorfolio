@@ -121,6 +121,11 @@
     height: auto;
 }
 
+.tool-logo {
+    width: 50px;
+    height: auto;
+}
+
 .text-head {
     margin: 10px 0;
     /* color: #d32f2f; */
@@ -133,12 +138,16 @@
 
 .about-details {
     flex: 1;
-    margin: 10px;
+    margin-left: 7px;
     text-align: justify;
 }
 /* End About Section */
 
 /* Experience Section */
+#experience {
+    height: 150vh;
+}
+
 .experience-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -308,6 +317,9 @@ footer {
 
 /* Media Queries for Responsive Design */
 @media (max-width: 600px) { #experience { height: 185vh; } }
+@media (max-width: 425px) { #experience { height: 340vh; } }
+@media (max-width: 768px) { #experience { height: 220vh; } }
+@media (max-width: 1024px) { #experience { height: 220vh; } }
 @media (max-width: 1000px) { #projects { height: 490vh; } }
 @media (max-width: 840px) { #projects { height: 420vh; } }
 @media (max-width: 600px) { 
