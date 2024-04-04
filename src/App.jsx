@@ -10,6 +10,7 @@ import About from './components/section/About';
 import Experience from './components/section/Experience';
 import Projects from './components/section/Projects';
 import Contact from './components/section/Contact';
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
 
@@ -46,6 +47,7 @@ const App = () => {
 
     <section id='contact'>
         <Contact/>
+        <Analytics />
     </section>
 
   </>
