@@ -18,6 +18,10 @@ import reactjs from '../../assets/img/logo/reactjs.png';
 import vitelogo from '../../assets/img/logo/vite.png';
 import photoshop from '../../assets/img/logo/photoshop.png';
 import bootstrap from '../../assets/img/logo/bootstrap.svg';
+import pinia from '../../assets/img/logo/pinia.png';
+import nuxtjs from '../../assets/img/logo/nuxtjs.png';
+import graphql from '../../assets/img/logo/graphql.png';
+import vuetify from '../../assets/img/logo/vuetify.png';
 
 const Experience = () => {
     return (
@@ -138,6 +142,50 @@ const Experience = () => {
                         <h3 className='skill-title'>Laravel</h3>
                     </div>
                     <div className='insmall-box'>
+                        <img className='tool-logo' src={bootstrap}/>
+                        <h3 className='skill-title'>Bootstrap</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={nodejs}/>
+                        <h3 className='skill-title'>NodeJS</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={npm}/>
+                        <h3 className='skill-title'>NPM</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={reactjs}/>
+                        <h3 className='skill-title'>ReactJS</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={nuxtjs}/>
+                        <h3 className='skill-title'>NuxtJS</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={vuetify}/>
+                        <h3 className='skill-title'>Vuetify</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={graphql}/>
+                        <h3 className='skill-title'>GraphQL</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={pinia}/>
+                        <h3 className='skill-title'>Pinia</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={vitelogo}/>
+                        <h3 className='skill-title'>Vite</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={mui}/>
+                        <h3 className='skill-title'>Material UI</h3>
+                    </div>
+                    <div className='insmall-box'>
+                        <img className='tool-logo' src={github}/>
+                        <h3 className='skill-title'>Github</h3>
+                    </div>
+                    <div className='insmall-box'>
                         <img className='tool-logo' src={chrome}/>
                         <h3 className='skill-title'>Chrome</h3>
                     </div>
@@ -148,18 +196,6 @@ const Experience = () => {
                     <div className='insmall-box'>
                         <img className='tool-logo' src={hostinger}/>
                         <h3 className='skill-title'>Hostinger</h3>
-                    </div>
-                    <div className='insmall-box'>
-                        <img className='tool-logo' src={bootstrap}/>
-                        <h3 className='skill-title'>Bootstrap</h3>
-                    </div>
-                    <div className='insmall-box'>
-                        <img className='tool-logo' src={mui}/>
-                        <h3 className='skill-title'>Material UI</h3>
-                    </div>
-                    <div className='insmall-box'>
-                        <img className='tool-logo' src={github}/>
-                        <h3 className='skill-title'>Github</h3>
                     </div>
                     <div className='insmall-box'>
                         <img className='tool-logo' src={mysql}/>
@@ -174,24 +210,8 @@ const Experience = () => {
                         <h3 className='skill-title'>Vercel</h3>
                     </div>
                     <div className='insmall-box'>
-                        <img className='tool-logo' src={nodejs}/>
-                        <h3 className='skill-title'>NodeJS</h3>
-                    </div>
-                    <div className='insmall-box'>
-                        <img className='tool-logo' src={npm}/>
-                        <h3 className='skill-title'>NPM</h3>
-                    </div>
-                    <div className='insmall-box'>
                         <img className='tool-logo' src={wordpress}/>
                         <h3 className='skill-title'>Wordpress</h3>
-                    </div>
-                    <div className='insmall-box'>
-                        <img className='tool-logo' src={reactjs}/>
-                        <h3 className='skill-title'>ReactJS</h3>
-                    </div>
-                    <div className='insmall-box'>
-                        <img className='tool-logo' src={vitelogo}/>
-                        <h3 className='skill-title'>Vite</h3>
                     </div>
                     <div className='insmall-box'>
                         <img className='tool-logo' src={photoshop}/>

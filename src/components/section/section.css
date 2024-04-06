@@ -219,6 +219,9 @@
 /* End Experience Section */
 
 /* Projects Section */
+#projects {
+    height: 550vh;
+}
 
 #project-main-wrapper {
     display: flex;
@@ -231,13 +234,17 @@
 }
 
 #project-wrapper {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
 }
 
 .project-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .project-box-details {
@@ -264,10 +271,6 @@
 #projectButton {
     border-radius: 0;
     margin: 5px;
-}
-
-#projects {
-    height: 460vh;
 }
 /* End Project Section */
 
@@ -317,9 +320,10 @@ footer {
 
 /* Media Queries for Responsive Design */
 @media (max-width: 600px) { #experience { height: 185vh; } }
-@media (max-width: 425px) { #experience { height: 340vh; } }
+@media (max-width: 425px) { #experience { height: 370vh; } }
 @media (max-width: 768px) { #experience { height: 220vh; } }
 @media (max-width: 1024px) { #experience { height: 220vh; } }
+
 @media (max-width: 1000px) { #projects { height: 490vh; } }
 @media (max-width: 840px) { #projects { height: 420vh; } }
 @media (max-width: 600px) { 

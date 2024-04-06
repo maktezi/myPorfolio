@@ -20,6 +20,12 @@ body {
     position: fixed;
 }
 
+@media (max-width: 500px) { 
+    #theme {
+        margin-left: 87%;
+    }
+}
+
 #desktop-nav {
     top: 0;
     left: 0;

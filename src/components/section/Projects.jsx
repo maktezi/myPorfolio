@@ -8,6 +8,8 @@ import project3 from '/src/assets/img/project-3.png';
 import project4 from '/src/assets/img/project-4.png';
 import project5 from '/src/assets/img/project-5.png';
 import project6 from '/src/assets/img/project-6.png';
+import project7 from '/src/assets/img/project-7.png';
+import project8 from '/src/assets/img/project-8.png';
 
 const Projects = () => {
     return (
@@ -15,6 +17,65 @@ const Projects = () => {
         <h1 className="title">Projects</h1>
         <div id='project-main-wrapper'>
             <div id="project-wrapper">
+
+                <div className="project-box">
+                    <div className="project-box-details">
+                        <img className='project-pic' src={project7}/>
+                        <h3 className='project-title'>Space X App - (NuxtJS, Vuetify, GraphQL, Pinia)</h3>
+                        <div>
+                            <Button 
+                                href='https://github.com/maktezi/nuxtproject'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                                disableElevation
+                            >
+                                GITHUB
+                            </Button>
+                            <Button 
+                                href='https://mak-nuxtvgp.vercel.app'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='contained' 
+                                color='error' 
+                                disableElevation
+                            >
+                                LIVE DEMO
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="project-box">
+                    <div className="project-box-details">
+                        <img className='project-pic' src={project8}/>
+                        <h3 className='project-title'>Task Management System<br/>Admin Login - email: admin@mail.com | password: admin1234</h3>
+                        <div>
+                            <Button 
+                                href='https://github.com/maktezi/taskmanagement'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                                disableElevation
+                            >
+                                GITHUB
+                            </Button>
+                            <Button 
+                                href='https://taskman.freshfromuspng.com'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='contained' 
+                                color='error' 
+                                disableElevation
+                            >
+                                LIVE DEMO
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project0}/>
@@ -47,7 +108,7 @@ const Projects = () => {
                 <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project1}/>
-                        <h3 className='project-title'>QR Code Attendance System</h3>
+                        <h3 className='project-title'>QR Code Attendance System<br/>Admin Login - email: admin@mail.com | password: admin1234</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/qr_attendance_system/'
@@ -76,7 +137,7 @@ const Projects = () => {
                 <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project2}/>
-                        <h3 className='project-title'>Online Forms System</h3>
+                        <h3 className='project-title'>Online Forms System<br/>Admin Login - email: admin@mail.com | password: admin1234</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/online-forms'
@@ -143,7 +204,7 @@ const Projects = () => {
                 <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project5}/>
-                        <h3 className='project-title'>Supply Unit Inventory System</h3>
+                        <h3 className='project-title'>Supply Unit Inventory System<br/>Admin Login - email: admin@mail.com | password: admin1234</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/inventory-system'
