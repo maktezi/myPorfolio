@@ -21,7 +21,7 @@ const Projects = () => {
             <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project0}/>
-                        <h3 className='project-title'>Point of Sales System with ReactJS, Laravel</h3>
+                        <h3 className='project-title'>Point of Sale System with ReactJS, Laravel</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/project-pos'
