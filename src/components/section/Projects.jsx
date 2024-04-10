@@ -1,7 +1,6 @@
 // import React from 'react'
 import './section.css'
 import Button from '@mui/material/Button';
-import project9 from '/src/assets/img/project-9.png';
 import project1 from '/src/assets/img/project-1.png';
 import project2 from '/src/assets/img/project-2.png';
 import project3 from '/src/assets/img/project-3.png';
@@ -10,6 +9,7 @@ import project5 from '/src/assets/img/project-5.png';
 import project6 from '/src/assets/img/project-6.png';
 import project7 from '/src/assets/img/project-7.png';
 import project8 from '/src/assets/img/project-8.png';
+import project9 from '/src/assets/img/project-9.png';
 
 const Projects = () => {
     return (
@@ -21,7 +21,7 @@ const Projects = () => {
             <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project9}/>
-                        <h3 className='project-title'>Point of Sale System with ReactJS, Laravel</h3>
+                        <h3 className='project-title'>Point of Sale - (ReactJS, MUI, Laravel, MySQL)</h3>
                         <div>
                             <Button 
                                 href='https://github.com/maktezi/project-pos'
@@ -78,35 +78,6 @@ const Projects = () => {
 
                 <div className="project-box">
                     <div className="project-box-details">
-                        <img className='project-pic' src={project8}/>
-                        <h3 className='project-title'>Task Management System<br/>Admin Login - email: admin@mail.com | password: admin1234</h3>
-                        <div>
-                            <Button 
-                                href='https://github.com/maktezi/taskmanagement'
-                                target='_blank'
-                                id='projectButton' 
-                                variant='outlined' 
-                                color='error' 
-                                disableElevation
-                            >
-                                GITHUB
-                            </Button>
-                            <Button 
-                                href='https://taskman.freshfromuspng.com'
-                                target='_blank'
-                                id='projectButton' 
-                                variant='contained' 
-                                color='error' 
-                                disableElevation
-                            >
-                                LIVE DEMO
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="project-box">
-                    <div className="project-box-details">
                         <img className='project-pic' src={project1}/>
                         <h3 className='project-title'>QR Code Attendance System<br/>Admin Login - email: admin@mail.com | password: admin1234</h3>
                         <div>
@@ -122,6 +93,35 @@ const Projects = () => {
                             </Button>
                             <Button 
                                 href='https://dolejobfair2023.freshfromuspng.com/'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='contained' 
+                                color='error' 
+                                disableElevation
+                            >
+                                LIVE DEMO
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="project-box">
+                    <div className="project-box-details">
+                        <img className='project-pic' src={project8}/>
+                        <h3 className='project-title'>Task Management System<br/>Admin Login - email: admin@mail.com | password: admin1234</h3>
+                        <div>
+                            <Button 
+                                href='https://github.com/maktezi/taskmanagement'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                                disableElevation
+                            >
+                                GITHUB
+                            </Button>
+                            <Button 
+                                href='https://taskman.freshfromuspng.com'
                                 target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
