@@ -1,7 +1,7 @@
 // import React from 'react'
 import './section.css'
 import Button from '@mui/material/Button';
-import project0 from '/src/assets/img/project-0.png';
+import project9 from '/src/assets/img/project-9.png';
 import project1 from '/src/assets/img/project-1.png';
 import project2 from '/src/assets/img/project-2.png';
 import project3 from '/src/assets/img/project-3.png';
@@ -20,7 +20,7 @@ const Projects = () => {
 
             <div className="project-box">
                     <div className="project-box-details">
-                        <img className='project-pic' src={project0}/>
+                        <img className='project-pic' src={project9}/>
                         <h3 className='project-title'>Point of Sale System with ReactJS, Laravel</h3>
                         <div>
                             <Button 
