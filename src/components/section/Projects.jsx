@@ -18,6 +18,35 @@ const Projects = () => {
         <div id='project-main-wrapper'>
             <div id="project-wrapper">
 
+            <div className="project-box">
+                    <div className="project-box-details">
+                        <img className='project-pic' src={project0}/>
+                        <h3 className='project-title'>Point of Sales System with ReactJS, Laravel</h3>
+                        <div>
+                            <Button 
+                                href='https://github.com/maktezi/project-pos'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='outlined' 
+                                color='error' 
+                                disableElevation
+                            >
+                                GITHUB
+                            </Button>
+                            <Button 
+                                href='https://pointofsales101.vercel.app'
+                                target='_blank'
+                                id='projectButton' 
+                                variant='contained' 
+                                color='error' 
+                                disableElevation
+                            >
+                                LIVE DEMO
+                            </Button>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="project-box">
                     <div className="project-box-details">
                         <img className='project-pic' src={project7}/>
@@ -64,35 +93,6 @@ const Projects = () => {
                             </Button>
                             <Button 
                                 href='https://taskman.freshfromuspng.com'
-                                target='_blank'
-                                id='projectButton' 
-                                variant='contained' 
-                                color='error' 
-                                disableElevation
-                            >
-                                LIVE DEMO
-                            </Button>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="project-box">
-                    <div className="project-box-details">
-                        <img className='project-pic' src={project0}/>
-                        <h3 className='project-title'>Simple CRUD ReactJS, Laravel</h3>
-                        <div>
-                            <Button 
-                                href='https://github.com/maktezi/crud'
-                                target='_blank'
-                                id='projectButton' 
-                                variant='outlined' 
-                                color='error' 
-                                disableElevation
-                            >
-                                GITHUB
-                            </Button>
-                            <Button 
-                                href='https://crud101.vercel.app'
                                 target='_blank'
                                 id='projectButton' 
                                 variant='contained' 
