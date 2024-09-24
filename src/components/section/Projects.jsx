@@ -1,6 +1,7 @@
 // import React from 'react'
 import './section.css'
 import Button from '@mui/material/Button';
+import project0 from '/src/assets/img/project-0.png';
 import project1 from '/src/assets/img/project-1.png';
 import project2 from '/src/assets/img/project-2.png';
 import project3 from '/src/assets/img/project-3.png';
@@ -18,27 +19,47 @@ const Projects = () => {
         <div id='project-main-wrapper'>
             <div id="project-wrapper">
 
-            <div className="project-box">
+                <div className="project-box">
+
+                    <div className="project-box">
+                        <div className="project-box-details">
+                            <img className='project-pic' src={project0}/>
+                            <h3 className='project-title'>AIO APP - (NuxtJS, Laravel, GraphQL).</h3>
+                            <div>
+                                <Button
+                                    href='https://nuxtlaravel.vercel.app/dashboard'
+                                    target='_blank'
+                                    id='projectButton'
+                                    variant='contained'
+                                    color='error'
+                                    disableElevation
+                                >
+                                    LIVE DEMO (frontend only)
+                                </Button>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="project-box-details">
                         <img className='project-pic' src={project9}/>
                         <h3 className='project-title'>Point of Sale - (ReactJS, MUI, Laravel, MySQL)</h3>
                         <div>
-                            <Button 
+                            <Button
                                 href='https://github.com/maktezi/project-pos'
                                 target='_blank'
-                                id='projectButton' 
-                                variant='outlined' 
-                                color='error' 
+                                id='projectButton'
+                                variant='outlined'
+                                color='error'
                                 disableElevation
                             >
                                 GITHUB
                             </Button>
-                            <Button 
+                            <Button
                                 href='https://pointofsales101.vercel.app'
                                 target='_blank'
-                                id='projectButton' 
-                                variant='contained' 
-                                color='error' 
+                                id='projectButton'
+                                variant='contained'
+                                color='error'
                                 disableElevation
                             >
                                 LIVE DEMO
@@ -52,22 +73,22 @@ const Projects = () => {
                         <img className='project-pic' src={project7}/>
                         <h3 className='project-title'>Space X App - (NuxtJS, Vuetify, GraphQL, Pinia)</h3>
                         <div>
-                            <Button 
+                            <Button
                                 href='https://github.com/maktezi/nuxtproject'
                                 target='_blank'
-                                id='projectButton' 
-                                variant='outlined' 
-                                color='error' 
+                                id='projectButton'
+                                variant='outlined'
+                                color='error'
                                 disableElevation
                             >
                                 GITHUB
                             </Button>
-                            <Button 
+                            <Button
                                 href='https://mak-nuxtvgp.vercel.app'
                                 target='_blank'
-                                id='projectButton' 
-                                variant='contained' 
-                                color='error' 
+                                id='projectButton'
+                                variant='contained'
+                                color='error'
                                 disableElevation
                             >
                                 LIVE DEMO
